@@ -1,8 +1,19 @@
 body {
-  background: linear-gradient(#ff9a9e, #fad0c4);
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffb6c1;
+  animation: softPulse 8s infinite alternate;
+  color: white;
   text-align: center;
-  color: #fff;
+}
+
+@keyframes softPulse {
+  0% {
+    background-color: #ffb6c1;
+  }
+  100% {
+    background-color: #ff9aad;
+  }
 }
 
 .container {
